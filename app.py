@@ -10,7 +10,7 @@ with open('saved_models/tfidf.pkl', 'rb') as vec_file:
 
 import os
 
-app = Flask(__name__, template_folder='.')
+app = Flask(__name__)
 
 @app.route('/')
 def home():
